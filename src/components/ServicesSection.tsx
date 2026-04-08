@@ -1,4 +1,13 @@
-import { Heart, Briefcase, Sparkles, Shield, CircleDot, Scale, Baby, TrendingUp } from "lucide-react";
+import {
+  Heart,
+  Briefcase,
+  Sparkles,
+  Shield,
+  CircleDot,
+  Scale,
+  Baby,
+  TrendingUp,
+} from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
 interface ServiceCard {
@@ -11,47 +20,56 @@ const services: ServiceCard[] = [
   {
     icon: Heart,
     title: "Perfect Marriage / Fix Marriage",
-    description: "Restore harmony and deep connection in your marriage. Through powerful spiritual rituals, Babu Majjimoto Juju mends broken bonds and reignites the flame of love.",
+    description:
+      "Restore harmony and deep connection in your marriage. Through powerful spiritual rituals, Babu Majjimoto Juju mends broken bonds and reignites the flame of love.",
   },
   {
     icon: Sparkles,
     title: "Love Potion / Bring Back Your Ex",
-    description: "Harness the irresistible power of ancient love potions to rekindle lost passion and bring your ex-lover back into your arms. Love knows no boundaries.",
+    description:
+      "Harness the irresistible power of ancient love potions to rekindle lost passion and bring your ex-lover back into your arms. Love knows no boundaries.",
   },
   {
     icon: Briefcase,
     title: "Business Ritual",
-    description: "Let us help you unlock your business potential and achieve lasting success. Our powerful rituals open doors of opportunity and attract wealth and prosperity.",
+    description:
+      "Let us help you unlock your business potential and achieve lasting success. Our powerful rituals open doors of opportunity and attract wealth and prosperity.",
   },
   {
     icon: Shield,
     title: "Spiritual Cleansing",
-    description: "With a deep understanding of spiritual practices, Babu Majjimoto Juju helps individuals find peace and clarity through rituals. Experience a transformative journey that promotes healing and well-being.",
+    description:
+      "With a deep understanding of spiritual practices, Babu Majjimoto Juju helps individuals find peace and clarity through rituals. Experience a transformative journey that promotes healing and well-being.",
   },
   {
     icon: CircleDot,
     title: "Lucky Rings",
-    description: "Discover the enchanting collection of lucky rings designed to enhance love, business success, and protection. Each ring is crafted with care and intention, helping you attract positive energies.",
+    description:
+      "Discover the enchanting collection of lucky rings designed to enhance love, business success, and protection. Each ring is crafted with care and intention, helping you attract positive energies.",
   },
   {
     icon: Shield,
     title: "Get Your Lost Property Back",
-    description: "Unlock the power of nature with our unique blend of strong herbs and spiritual practices designed to help you reclaim lost property and provide protection for your belongings.",
+    description:
+      "Unlock the power of nature with our unique blend of strong herbs and spiritual practices designed to help you reclaim lost property and provide protection for your belongings.",
   },
   {
     icon: Scale,
     title: "Win Court Case",
-    description: "Gain the spiritual advantage in legal matters. Through ancient rituals and powerful charms, tip the scales of justice in your favor and walk out victorious.",
+    description:
+      "Gain the spiritual advantage in legal matters. Through ancient rituals and powerful charms, tip the scales of justice in your favor and walk out victorious.",
   },
   {
     icon: Baby,
     title: "Family & Fertility Support",
-    description: "Babu Majjimoto Juju offers cultural guidance and advice to help clients feel prepared and focused. The guidance emphasizes clarity, personal confidence, and navigating challenges thoughtfully.",
+    description:
+      "Babu Majjimoto Juju offers cultural guidance and advice to help clients feel prepared and focused. The guidance emphasizes clarity, personal confidence, and navigating challenges thoughtfully.",
   },
   {
     icon: TrendingUp,
     title: "Business & Financial Growth",
-    description: "This service helps clients focus on opportunities and growth using culturally inspired practices. Encouraging positivity, discipline, and alignment with personal goals.",
+    description:
+      "This service helps clients focus on opportunities and growth using culturally inspired practices. Encouraging positivity, discipline, and alignment with personal goals.",
   },
 ];
 

@@ -2,7 +2,12 @@ import type { Config } from "tailwindcss";
 
 export default {
   darkMode: ["class"],
-  content: ["./pages/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}"],
+  content: [
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+  ],
   prefix: "",
   theme: {
     container: {
@@ -14,8 +19,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        display: ['"Cinzel Decorative"', 'serif'],
-        body: ['"Crimson Text"', 'serif'],
+        display: ['"Cinzel Decorative"', "serif"],
+        body: ['"Crimson Text"', "serif"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -82,7 +87,10 @@ export default {
         },
         "pulse-glow": {
           "0%, 100%": { boxShadow: "0 0 15px hsl(110 100% 55% / 0.4)" },
-          "50%": { boxShadow: "0 0 30px hsl(110 100% 55% / 0.7), 0 0 60px hsl(110 100% 55% / 0.3)" },
+          "50%": {
+            boxShadow:
+              "0 0 30px hsl(110 100% 55% / 0.7), 0 0 60px hsl(110 100% 55% / 0.3)",
+          },
         },
       },
       animation: {

@@ -2,9 +2,18 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section
+      id="home"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+    >
       <div className="absolute inset-0">
-        <img src={heroBg} alt="Mystical spiritual healer scene" width={1920} height={1080} className="w-full h-full object-cover" />
+        <img
+          src={heroBg}
+          alt="Mystical spiritual healer scene"
+          width={1920}
+          height={1080}
+          className="w-full h-full object-cover"
+        />
         <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/50 to-background" />
       </div>
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
@@ -15,8 +24,9 @@ const HeroSection = () => {
           Babu Majjimoto Juju
         </h1>
         <p className="text-foreground/70 text-lg md:text-xl max-w-2xl mx-auto mb-10 font-body leading-relaxed">
-          Renowned witch doctor and spiritual healer from Uganda. Unlock the ancient powers 
-          that have guided generations toward love, prosperity, and protection.
+          Renowned witch doctor and spiritual healer from Uganda. Unlock the
+          ancient powers that have guided generations toward love, prosperity,
+          and protection.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a

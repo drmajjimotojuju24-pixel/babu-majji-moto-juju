@@ -27,19 +27,22 @@ const AboutSection = () => {
             </h2>
             <div className="space-y-4 text-foreground/70 text-lg leading-relaxed">
               <p>
-                Born and raised in the heart of Uganda, Babu Majjimoto Juju carries the sacred 
-                knowledge passed down through generations of powerful spiritual healers. From a 
-                young age, the spirits chose him to walk the path of healing and guidance.
+                Born and raised in the heart of Uganda, Babu Majjimoto Juju
+                carries the sacred knowledge passed down through generations of
+                powerful spiritual healers. From a young age, the spirits chose
+                him to walk the path of healing and guidance.
               </p>
               <p>
-                With decades of experience in traditional African spiritual practices, Babu 
-                Majjimoto Juju has helped thousands reclaim love, restore prosperity, and find 
-                protection from dark forces. His rituals draw upon ancient herbs, sacred chants, 
-                and the raw power of ancestral spirits.
+                With decades of experience in traditional African spiritual
+                practices, Babu Majjimoto Juju has helped thousands reclaim
+                love, restore prosperity, and find protection from dark forces.
+                His rituals draw upon ancient herbs, sacred chants, and the raw
+                power of ancestral spirits.
               </p>
               <p>
-                Whether you seek to mend a broken heart, unlock business success, or shield 
-                yourself from misfortune — the spirits are ready to answer your call.
+                Whether you seek to mend a broken heart, unlock business
+                success, or shield yourself from misfortune — the spirits are
+                ready to answer your call.
               </p>
             </div>
           </div>

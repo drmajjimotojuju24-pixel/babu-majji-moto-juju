@@ -13,14 +13,18 @@ const FloatingActionButton = () => {
             className="flex items-center gap-3 px-4 py-3 bg-primary text-primary-foreground rounded-full shadow-lg hover:scale-105 transition-transform"
           >
             <Phone className="w-5 h-5" />
-            <span className="font-display text-xs tracking-wider uppercase">Call</span>
+            <span className="font-display text-xs tracking-wider uppercase">
+              Call
+            </span>
           </a>
           <a
             href="sms:+254703253466"
             className="flex items-center gap-3 px-4 py-3 bg-secondary text-secondary-foreground rounded-full shadow-lg hover:scale-105 transition-transform"
           >
             <MessageCircle className="w-5 h-5" />
-            <span className="font-display text-xs tracking-wider uppercase">Text</span>
+            <span className="font-display text-xs tracking-wider uppercase">
+              Text
+            </span>
           </a>
         </div>
       )}

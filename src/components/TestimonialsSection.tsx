@@ -1,15 +1,51 @@
 import { Star } from "lucide-react";
 
 const testimonials = [
-  { name: "Amina K.", location: "Kampala, Uganda", text: "My husband had left me for another woman. After consulting Babu Majjimoto Juju, he returned within a week begging for forgiveness. Our marriage is stronger than ever!" },
-  { name: "Peter O.", location: "Nairobi, Kenya", text: "My business was on the verge of collapse. The business ritual changed everything — new clients started flowing in and my debts cleared within two months." },
-  { name: "Sarah M.", location: "Dar es Salaam, Tanzania", text: "I was cursed by jealous relatives. The spiritual cleansing freed me from years of bad luck. I finally have peace and clarity in my life." },
-  { name: "James W.", location: "Jinja, Uganda", text: "The lucky ring I received has been incredible. I got promoted at work and won a land dispute I had been fighting for years." },
-  { name: "Grace N.", location: "Mombasa, Kenya", text: "After 7 years of trying to conceive, the fertility rituals worked. I am now a proud mother of twins. Babu Majjimoto Juju is truly gifted!" },
-  { name: "Hassan B.", location: "Entebbe, Uganda", text: "Someone stole my family's ancestral land documents. Through the lost property ritual, the thief returned everything within days. Unbelievable power!" },
-  { name: "Florence A.", location: "Kisumu, Kenya", text: "My court case had dragged on for 3 years. After the ritual, the judge ruled in my favor in the very next hearing. I am forever grateful." },
-  { name: "David L.", location: "Kampala, Uganda", text: "My ex-girlfriend came back to me after the love potion. We are now happily married and building a beautiful life together." },
-  { name: "Martha T.", location: "Mbale, Uganda", text: "The spiritual protection Babu provided has kept my family safe from dark forces. No more nightmares, no more strange occurrences. Pure peace." },
+  {
+    name: "Amina K.",
+    location: "Kampala, Uganda",
+    text: "My husband had left me for another woman. After consulting Babu Majjimoto Juju, he returned within a week begging for forgiveness. Our marriage is stronger than ever!",
+  },
+  {
+    name: "Peter O.",
+    location: "Nairobi, Kenya",
+    text: "My business was on the verge of collapse. The business ritual changed everything — new clients started flowing in and my debts cleared within two months.",
+  },
+  {
+    name: "Sarah M.",
+    location: "Dar es Salaam, Tanzania",
+    text: "I was cursed by jealous relatives. The spiritual cleansing freed me from years of bad luck. I finally have peace and clarity in my life.",
+  },
+  {
+    name: "James W.",
+    location: "Jinja, Uganda",
+    text: "The lucky ring I received has been incredible. I got promoted at work and won a land dispute I had been fighting for years.",
+  },
+  {
+    name: "Grace N.",
+    location: "Mombasa, Kenya",
+    text: "After 7 years of trying to conceive, the fertility rituals worked. I am now a proud mother of twins. Babu Majjimoto Juju is truly gifted!",
+  },
+  {
+    name: "Hassan B.",
+    location: "Entebbe, Uganda",
+    text: "Someone stole my family's ancestral land documents. Through the lost property ritual, the thief returned everything within days. Unbelievable power!",
+  },
+  {
+    name: "Florence A.",
+    location: "Kisumu, Kenya",
+    text: "My court case had dragged on for 3 years. After the ritual, the judge ruled in my favor in the very next hearing. I am forever grateful.",
+  },
+  {
+    name: "David L.",
+    location: "Kampala, Uganda",
+    text: "My ex-girlfriend came back to me after the love potion. We are now happily married and building a beautiful life together.",
+  },
+  {
+    name: "Martha T.",
+    location: "Mbale, Uganda",
+    text: "The spiritual protection Babu provided has kept my family safe from dark forces. No more nightmares, no more strange occurrences. Pure peace.",
+  },
 ];
 
 const TestimonialsSection = () => {

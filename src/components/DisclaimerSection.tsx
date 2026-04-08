@@ -10,11 +10,14 @@ const DisclaimerSection = () => {
             Disclaimer
           </h3>
           <p className="text-foreground/40 text-sm leading-relaxed">
-            The services provided by Babu Majjimoto Juju are cultural and traditional guidance for personal 
-            reflection, emotional balance, and spiritual support. They are not intended as medical, legal, 
-            financial, or professional advice. Results may vary, and no guarantees are made. By using this 
-            website, you confirm that you are 21 years of age or older. Babu Majjimoto Juju encourages 
-            responsible use of services and emphasizes personal reflection, cultural alignment, and well-being.
+            The services provided by Babu Majjimoto Juju are cultural and
+            traditional guidance for personal reflection, emotional balance, and
+            spiritual support. They are not intended as medical, legal,
+            financial, or professional advice. Results may vary, and no
+            guarantees are made. By using this website, you confirm that you are
+            21 years of age or older. Babu Majjimoto Juju encourages responsible
+            use of services and emphasizes personal reflection, cultural
+            alignment, and well-being.
           </p>
         </div>
       </div>
