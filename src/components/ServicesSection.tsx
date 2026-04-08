@@ -1,4 +1,4 @@
-import { Heart, Briefcase, Sparkles, Shield, Ring, Scale, Baby, TrendingUp } from "lucide-react";
+import { Heart, Briefcase, Sparkles, Shield, CircleDot, Scale, Baby, TrendingUp } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
 interface ServiceCard {
