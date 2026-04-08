@@ -29,7 +29,7 @@ const services: ServiceCard[] = [
     description: "With a deep understanding of spiritual practices, Babu Majjimoto Juju helps individuals find peace and clarity through rituals. Experience a transformative journey that promotes healing and well-being.",
   },
   {
-    icon: Ring,
+    icon: CircleDot,
     title: "Lucky Rings",
     description: "Discover the enchanting collection of lucky rings designed to enhance love, business success, and protection. Each ring is crafted with care and intention, helping you attract positive energies.",
   },
