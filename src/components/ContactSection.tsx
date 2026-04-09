@@ -18,17 +18,17 @@ const ContactSection = () => {
         </div>
         <div className="max-w-2xl mx-auto grid sm:grid-cols-3 gap-6">
           <a
-            href="tel:+254703253466"
+            href="tel:+254748826597"
             className="flex flex-col items-center gap-3 p-8 bg-card border border-border rounded-lg hover:border-accent/50 hover:box-glow transition-all"
           >
             <Phone className="w-8 h-8 text-accent" />
             <span className="font-display text-sm text-foreground">
               Call Now
             </span>
-            <span className="text-foreground/60 text-sm">+254 703 253 466</span>
+            <span className="text-foreground/60 text-sm">+254 748 826 597</span>
           </a>
           <a
-            href="https://wa.me/254703253466"
+            href="https://wa.me/254748826597"
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col items-center gap-3 p-8 bg-card border border-border rounded-lg hover:border-primary/50 hover:box-glow transition-all"
