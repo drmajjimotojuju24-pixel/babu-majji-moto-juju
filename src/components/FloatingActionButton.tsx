@@ -18,12 +18,14 @@ const FloatingActionButton = () => {
             </span>
           </a>
           <a
-            href="sms:+254703253466"
+            href="https://wa.me/254703253466"
+            target="_blank"
+            rel="noreferrer"
             className="flex items-center gap-3 px-4 py-3 bg-secondary text-secondary-foreground rounded-full shadow-lg hover:scale-105 transition-transform"
           >
             <MessageCircle className="w-5 h-5" />
             <span className="font-display text-xs tracking-wider uppercase">
-              Text
+              WhatsApp
             </span>
           </a>
         </div>
